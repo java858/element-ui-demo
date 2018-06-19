@@ -33,9 +33,9 @@ export default {
   methods: {
     showMsgbox () {
       this.$notify({      // $notify在全局注册了。
-        title: '地狱猫',
+        title: '美好寄语',
         type: 'success',
-        message: '肮脏的屁眼交易！！!',
+        message: '你好，世界！！！！！',
         duration: 5000
       })
     }
